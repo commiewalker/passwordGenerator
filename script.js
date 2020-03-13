@@ -25,7 +25,7 @@ function writePassword() {
 (function() {
   do {
     passLenght = prompt("How long for the password? ( 8 - 128 characters)");
-  } while (passLenght < 8 || passLenght > 128 || typeof(passLenght) === "string");
+  } while (passLenght < 8 || passLenght > 128);
 
   do {
   lower = confirm("Does it contain lower cases?");
